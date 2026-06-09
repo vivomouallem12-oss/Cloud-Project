@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Tomato Leaf Disease Detection using Convolutional Neural Network with Data Augmentation",
+    "authors": "Nithish Kannan E., Kaushik M., Prakash P.",
+    "journal": "2020 5th International Conference on Communication and Electronics Systems (ICCES)",
+    "year": 2020,
+    "doi": "10.1109/ICCES48766.2020.9138030",
+    "abstract": "This project briefs the detection of diseases present in a tomato leaf using Convolutional Neural Networks (CNNs) which is a class under a deep neural network. As an initial step, the dataset is segregated before the detection of tomato leaves. The concept of transfer learning is used where a pre-trained model (ResNet-50) is imported and adjusted according to our classification problem. To increase the quality of the ResNet model and to enhance the result as close to the actual prevailing disease, data augmentation has been implemented. Taking all these into consideration, a tomato leaf disease detection model has been developed using PyTorch that uses deep - CNNs. Finally, the testing dataset is processed for validation based on the learned parameters from the ResNet 50 model. Six most prevailing diseases in tomato crops have been taken for classification. Data augmentation has been introduced to increase the data set to 4 times the actual data and the model has shown an accuracy of 97%."
+  },
+  {
+    "title": "Development of Efficient CNN model for Tomato crop disease identification",
+    "authors": "M. Agarwal, S. K. Gupta, K. K. Biswas",
+    "journal": "Sustainable Computing: Informatics and Systems",
+    "year": 2020,
+    "doi": "",
+    "abstract": "Tomato is an important vegetable crop cultivated worldwide coming next only to potato. However, the crop can be damaged due to various diseases. It is important for the farmer to know the type of disease for timely treatment of the crop. It has been observed that leaves are clear indicator of specific diseases. A number of Machine Learning (ML) algorithms and Convolution Neural Network (CNN) models have been proposed in literature for identification of tomato crop diseases. CNN models are based on Deep Learning Neural Networks and differ inherently from traditional Machine Learning algorithms like k-NN, Decision-Trees etc. While pretrained CNN models perform fairly well, they tend to be computationally heavy due to large number of parameters involved. In this paper a simplified CNN model is proposed comprising of 8 hidden layers. Using the publicly available dataset PlantVillage, proposed light weight model performs better than the traditional machine learning approaches as well as pretrained models and achieves an accuracy of 98.4%. PlantVillage dataset comprises of 39 classes of different crops like apple, potato, corn, grapes etc. of which 10 classes are of tomato diseases. While traditional ML methods gives best accuracy of 94.9% with k-NN, best accuracy of 93.5% is obtained with VGG16 in pretrained models. To increase performance of proposed CNN, image pre-processing has been used by changing image brightness by a random value of a random width of image after image augmentation. The proposed model also performs extremely well on dataset other than PlantVillage with accuracy of 98.7%."
+  },
+  {
+    "title": "Early and Accurate Detection of Tomato Leaf Diseases Using TomFormer",
+    "authors": "Asim Khan, Umair Nawaz, Lochan Kshetrimayum, Lakmal Seneviratne, Irfan Hussain",
+    "journal": "arXiv",
+    "year": 2023,
+    "doi": "",
+    "abstract": "Tomato leaf diseases pose a significant challenge for tomato farmers, resulting in substantial reductions in crop productivity. The timely and precise identification of tomato leaf diseases is crucial for successfully implementing disease management strategies. This paper introduces a transformer-based model called TomFormer for the purpose of tomato leaf disease detection. The paper's primary contributions include the following: Firstly, we present a novel approach for detecting tomato leaf diseases by employing a fusion model that combines a visual transformer and a convolutional neural network. Secondly, we aim to apply our proposed methodology to the Hello Stretch robot to achieve realtime diagnosis of tomato leaf diseases. Thirdly, we assessed our method by comparing it to models like YOLOS, DETR, ViT, and Swin, demonstrating its ability to achieve state-of-the-art outcomes. For the purpose of the experiment, we used three datasets of tomato leaf diseases, namely KUTomaDATA, PlantDoc, and Plan Village, where KUTomaDATA is being collected from a greenhouse in Abu Dhabi, UAE. Finally, we present a comprehensive analysis of the performance of our model and thoroughly discuss the limitations inherent in our approach. TomFormer performed well on the KUTomaDATA, PlantDoc, and PlantVillage datasets, with mean average accuracy (mAP) scores of 87%, 81 %, and 83 %, respectively. The comparative results in terms of mAP demonstrate that our method exhibits robustness, accuracy, efficiency, and scalability. Furthermore, it can be readily adapted to new datasets. We are confident that our work holds the potential to significantly influence the tomato industry by effectively mitigating crop losses and enhancing crop yields."
+  }
+]
